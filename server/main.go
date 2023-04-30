@@ -12,6 +12,6 @@ var (
 )
 
 func main() {
-	http.HandleFunc("/", api.Handler)
+	http.HandleFunc("/cotacao", api.Handler)
 	http.ListenAndServe(fmt.Sprintf(":%d", PORT), nil)
 }

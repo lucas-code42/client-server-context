@@ -18,7 +18,7 @@ var (
 	SERVER_TIMEOUT = 2
 	CTX_TIMEOUT    = 100
 	SERVER_METHOD  = "GET"
-	SERVER_HOST    = "http://localhost:8080"
+	SERVER_HOST    = "http://localhost:8080/cotacao"
 )
 
 type ServerResponse struct {
