@@ -79,6 +79,7 @@ func writeFile(data string) error {
 }
 
 func main() {
+	fmt.Println("client is running...")
 
 	for {
 		RUN_TIMES -= 1
@@ -96,7 +97,6 @@ func main() {
 				log.Fatal(err)
 			}
 		}
-		
 
 		fmt.Printf("server took %d ms to respond\n", elapsed)
 		fmt.Println("err:", err)
@@ -108,4 +108,3 @@ func main() {
 	}
 
 }
-
